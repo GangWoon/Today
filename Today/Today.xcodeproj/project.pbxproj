@@ -15,6 +15,8 @@
 		AE54AA1224E23730003A1BCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE54AA1124E23730003A1BCD /* Preview Assets.xcassets */; };
 		AE54AA1524E23730003A1BCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE54AA1324E23730003A1BCD /* LaunchScreen.storyboard */; };
 		AE54AA2024E23730003A1BCD /* TodayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE54AA1F24E23730003A1BCD /* TodayTests.swift */; };
+		AE54AA2B24E23B34003A1BCD /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE54AA2A24E23B34003A1BCD /* SwiftUIView.swift */; };
+		AE54AA2D24E23BD8003A1BCD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE54AA2C24E23BD8003A1BCD /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		AE54AA1B24E23730003A1BCD /* TodayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE54AA1F24E23730003A1BCD /* TodayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayTests.swift; sourceTree = "<group>"; };
 		AE54AA2124E23730003A1BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE54AA2A24E23B34003A1BCD /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		AE54AA2C24E23BD8003A1BCD /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 				AE54AA0524E2372C003A1BCD /* AppDelegate.swift */,
 				AE54AA0724E2372C003A1BCD /* SceneDelegate.swift */,
 				AE54AA0C24E2372C003A1BCD /* ContentView.swift */,
+				AE54AA2A24E23B34003A1BCD /* SwiftUIView.swift */,
+				AE54AA2C24E23BD8003A1BCD /* MapView.swift */,
 				AE54AA0E24E23730003A1BCD /* Assets.xcassets */,
 				AE54AA1324E23730003A1BCD /* LaunchScreen.storyboard */,
 				AE54AA1624E23730003A1BCD /* Info.plist */,
@@ -212,9 +218,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE54AA0B24E2372C003A1BCD /* Today.xcdatamodeld in Sources */,
+				AE54AA2D24E23BD8003A1BCD /* MapView.swift in Sources */,
 				AE54AA0624E2372C003A1BCD /* AppDelegate.swift in Sources */,
 				AE54AA0D24E2372C003A1BCD /* ContentView.swift in Sources */,
 				AE54AA0824E2372C003A1BCD /* SceneDelegate.swift in Sources */,
+				AE54AA2B24E23B34003A1BCD /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
